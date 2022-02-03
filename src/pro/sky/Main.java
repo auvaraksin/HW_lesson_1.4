@@ -19,7 +19,7 @@ public class Main {
     System.out.println();
     System.out.println("Задание 2");
     int fridayDate = 6;
-    for (i = 1; i <= 31; i++) {
+    for (i = fridayDate; i <= 31; i++) {
         if (i == fridayDate) {
             System.out.println("Сегодня пятница " + i + "-е число. Необходимо подготовить отчет.");
             fridayDate = fridayDate + 7;
